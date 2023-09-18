@@ -1,0 +1,58 @@
+.profile-cont{
+    display: flex;
+}
+
+.profile{
+    border: 1px solid black;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.name-pic{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: fit-content;
+    padding: 10px 25px 0px 40px;
+}
+
+.name-pic>p {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #8b6009;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.money-cont {
+    line-height: 0.1;
+    padding: 0px 5%;
+    
+}
+
+.money-cont>p{
+    font-size: 50px;
+    font-weight: thin;
+}
+
+.best-ticket {
+    border: 1px solid black;
+    padding: 0px 25px;
+}
+
+.best-ticket :first-child{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.best-winnings {
+    font-size: 32px;
+    line-height: 0.3;
+}

@@ -1,0 +1,283 @@
+.ticket-picker-container{
+    border: 1px solid black;
+    display: flex;
+    gap: 5px;
+    padding: 5% 0% 0% 5%;
+}
+
+.ticket {
+    border: 1px solid rgb(224, 191, 6);
+    gap: 5px;
+    background: linear-gradient(#ad770d,#fede1e);
+    padding: 5px 15px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+
+}
+.top-ticket-cont{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.btn-cont{
+    padding: 3px 5px;
+    
+}
+
+.del-ticket{
+    padding: 7px;
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    background:none;
+    transition: 0.3s;
+    box-sizing: border-box;
+    
+}
+
+
+.del-ticket>svg{
+    color: black;
+    border: 1px solid rgba(208, 18, 18, 0);
+    padding: 5px;
+    font-size: 36px;
+    opacity: 70%;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.del-ticket>svg:hover {
+    opacity: 100%;
+    color: rgb(249, 8, 8);
+}
+
+.ticket, .numbers ,.euroNums {
+    display: flex;
+    
+}
+
+.numbers, .euroNums{
+    gap: 5px;
+
+}
+
+.ticket-form{
+    padding: 10px;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 5px;
+    gap: 5px;
+    background: linear-gradient(#ad770d,#fede1e);
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+}
+
+.controls>button{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: purple;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.controls>.helper-control {
+    border-radius: 100%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.controls>.helper-control:hover{
+    transform: rotate(1turn);
+}
+
+.ticket-form>button:hover {
+    background-color: rgb(82, 2, 82);
+}
+
+.curr-selection {
+    display: flex;
+    border: 1px solid rgb(230, 212, 12);
+    padding: 5px 15px;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: white;
+    height: 62px;
+    width: 95%;
+    gap: 10px;
+}
+
+.curr-numbers, .curr-euroNums{
+    display: flex;
+    gap: 3px;
+}
+
+.curr-numbers>.selected-number, .curr-euroNums>.selected-number{
+    background: radial-gradient(circle, rgba(254,222,30,1) 77%, rgba(219,149,12,1) 100%);
+}
+.ticket-form>.numbers, .ticket-form>.euroNums{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.num {
+    border: 1px solid #ad770d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #312102;
+    cursor: pointer;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.num:hover {
+    font-weight: bold;
+    background-color: rgb(248, 224, 86);
+    border: 2px solid #ad770d;
+    padding:8px;
+}
+
+.clicked {
+    background-color: gold;
+}
+
+.ticket-list {
+border: 1px solid black;
+width: 100%;
+margin: 0px 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(165, 110, 7);
+border-radius: 15px;
+}
+
+.link_wrapper>a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(91, 4, 91);
+    font-size: 24px;
+    padding: 7px 20px;
+    margin: 0px 0px 15px 0px;
+    background-color: purple;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.link_wrapper>a:hover{
+    background-color: rgb(91, 4, 91);
+}
+.tickets-low-cont{
+    height: 100vh;
+
+}
+
+.ticket-list>p {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.ticket-list>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+@media (max-width:480px) {
+
+    .ticket-form >p {
+        font-size: 13px;
+    }
+    .ticket-picker-container {
+        display: flex;
+        flex-direction: column;
+        padding: 5% 1% 5% 1%;
+    }
+
+    .ticket {
+        border: 1px solid rgb(224, 191, 6);
+        gap: 8px;
+        padding: 5px 5px;
+    
+    }
+
+    .btn-cont{
+        padding: 0;
+    }
+
+    .del-ticket{
+        padding: 0;
+    }
+
+    .del-ticket>svg {
+        font-size: 30px;
+    }
+
+    .numbers, .euroNums{
+        gap: 2px;
+    
+    }
+
+    .controls>button{
+        font-size: 15px;
+        padding: 4px 12px;
+    }
+
+    .curr-selection {
+        height: fit-content;
+    }
+
+
+    .num {
+        padding: 2px;
+        border-radius: 100%;
+        font-size: 12px;
+    }
+    .num:hover {
+        font-size: 12px;
+        background-color: rgb(248, 224, 86);
+        border: 1px solid #ad770d;
+        padding:2px;
+    }
+
+    .link_wrapper>a {
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+
+
+    .ticket-list {
+        border: 1px solid;
+        width: 100%;
+        margin: 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(165, 110, 7);
+        border-radius: 15px;
+        }
+
+        .ticket-list>p {
+            font-size: 18px;
+            
+        }
+}

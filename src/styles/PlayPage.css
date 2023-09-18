@@ -1,0 +1,134 @@
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    display: grid;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.winning-ticket-cont{
+    display: flex;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: purple;
+}
+
+.winning-ticket-cont>div {
+    background-color: gold;
+}
+
+
+.winning-ticket-cont>div:nth-child(5) {
+    margin-right: 15px;
+}
+
+.style-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-controls {
+    padding: 20px 20px 20px 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.game-controls>h2 {
+    color: white;
+}
+
+.game-controls > button {
+    font-size: 24px;
+    border: 2px solid goldenrod;
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.game-controls > button:hover{
+    background-color: gold;
+}
+
+.results-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+}
+
+.user-ticket-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* From https://css.glass */
+background: rgba(230, 219, 219, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(230, 219, 219, 0.3);
+margin: 0px 0px 0px 15px;
+}
+
+.user-ticket-container>h2{
+    color: white;
+}
+
+@media (max-width: 480px) {
+
+    .bottom {
+        height: fit-content;
+    }
+
+    .game-controls > button {
+        font-size: 15px;
+        padding: 3px 9px;
+    }
+
+    .game-controls {
+        width: 80%;
+    }
+    .results-grid-container {
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+        margin: 0;
+        width: 90%;
+    }
+
+    .top-ticket-cont>p {
+        font-size: 12px;
+    }
+
+    .user-ticket-container>h2{
+        font-size: 20px;
+    }
+
+    .summarized-stats-container {
+        font-size: 10px;
+    }
+}

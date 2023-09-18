@@ -1,0 +1,45 @@
+.jackpot-display2{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    height: 250px;
+
+}
+
+.jackpot-announcer{
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+
+}
+
+.jackpot-number2{
+    border: 1px solid rgb(159, 19, 19);
+    margin: 0;
+    font-size: 75px;
+    font-weight: bold;
+    padding: 0px 60px;
+    background: purple;
+    color: white;
+    width: fit-content;
+    border-radius: 100px;
+}
+
+@media (max-width: 480px) {
+    .jackpot-display2 {
+        height: 125px;
+    }
+
+    .jackpot-announcer {
+        font-size: 18px;
+    }
+
+    .jackpot-number2 {
+        font-size: 30px;
+        padding: 0px 30px;
+    }
+}

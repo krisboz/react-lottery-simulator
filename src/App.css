@@ -1,0 +1,12 @@
+.app {
+    border: 1px solid black;
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(180deg, rgba(219,149,12,1) 35%, rgba(212,186,0,1) 87%);
+}
+
+@media (max-width:480px) {
+    .app {
+        height:100%;
+    }
+}

@@ -1,0 +1,45 @@
+.selected-number {
+    border: 2px solid orange;
+    background-color: #fff;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    line-height: 0;
+    border-radius: 50%;
+    transition:  1s;
+
+}
+
+
+.highlighted {
+  background-color: green;
+  color: white;
+  border: 1px solid darkgreen;
+}
+
+
+
+
+@keyframes pulse{
+    25%  {transform: scale(0.9);}
+    75%  {transform: scale(1.1);}
+  }
+  
+  .roll-out {
+    animation: pulse 0.3s linear 1;
+  }
+
+
+@media (max-width: 480px) {
+  .selected-number {
+    font-size: 14px;
+    height: 25px;
+    width: 25px;
+  }
+
+
+}

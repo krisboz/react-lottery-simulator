@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+nav> a{
+    font-family: "Zen Tokyo Zoo", cursive;
+    font-size: 48px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+nav>a:hover{
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    transition: all .3s;
+}
+
+nav a {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 18px;
+}
+.nav-link {
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+div svg {
+    color: white;
+    font-size: 24px;
+    border: none;
+    
+}
+
+@media (max-width:480px) {
+
+    nav {
+        padding: 0;
+    }
+    nav>a {
+        font-size: 28px;
+    }
+
+    nav>div {
+        font-size: 15px;
+    }
+
+    div svg {
+        font-size: 16px;
+    }
+}

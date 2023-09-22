@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-lottery-simulator/static/css/main.32cc866b.css",
-    "main.js": "/react-lottery-simulator/static/js/main.14395610.js",
+    "main.css": "/react-lottery-simulator/static/css/main.61b1f8b0.css",
+    "main.js": "/react-lottery-simulator/static/js/main.a4c1f7d9.js",
     "index.html": "/react-lottery-simulator/index.html",
-    "main.32cc866b.css.map": "/react-lottery-simulator/static/css/main.32cc866b.css.map",
-    "main.14395610.js.map": "/react-lottery-simulator/static/js/main.14395610.js.map"
+    "main.61b1f8b0.css.map": "/react-lottery-simulator/static/css/main.61b1f8b0.css.map",
+    "main.a4c1f7d9.js.map": "/react-lottery-simulator/static/js/main.a4c1f7d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.32cc866b.css",
-    "static/js/main.14395610.js"
+    "static/css/main.61b1f8b0.css",
+    "static/js/main.a4c1f7d9.js"
   ]
 }

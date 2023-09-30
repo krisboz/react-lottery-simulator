@@ -1,0 +1,45 @@
+.Collapsible__trigger {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+    position: relative;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    color: white; }
+    .Collapsible__trigger:after {
+      content: '>';
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      display: block;
+      transition: transform 300ms; }
+    .Collapsible__trigger.is-open:after {
+      transform: rotateZ(90deg); }
+    .Collapsible__trigger.is-disabled {
+      opacity: 0.5;
+      background-color: grey; }
+
+.info-content {
+  padding: 0 1rem 0 1rem;
+}
+
+
+.information-container>h1 {
+  margin: 0 0 0 2rem;
+  padding: 1rem 0 0 0;
+}
+
+
+.perc-table{
+  border: 1px solid gold;
+
+}
+
+
+.perc-table>thead>tr>th {
+  color: black;
+}

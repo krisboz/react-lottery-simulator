@@ -36,8 +36,8 @@ const Ticket = ({ ticket, highlightedNumbers }) => {
           ))}
         </div>
       </div>
-      <p>
-        Winnings:{" "}
+      <p style={{ padding: "0 1rem 0 1rem" }}>
+        €{" "}
         {calcWinnings(
           general.jackpot,
           highlightedNumbers.numbers,

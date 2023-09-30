@@ -26,7 +26,10 @@ const Home = () => {
       >
         Play
       </Link>
-      <p>You have {profile.tickets.length} tickets</p>
+      <p>
+        You have {profile.tickets.length} ticket
+        {profile.tickets.length > 1 && "s"}
+      </p>
     </div>
   );
 };

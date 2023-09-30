@@ -3,11 +3,12 @@
     display: flex;
     gap: 5px;
     padding: 5% 0% 0% 5%;
+
 }
 
 .ticket {
     border: 1px solid rgb(224, 191, 6);
-    gap: 5px;
+    gap: 3px;
     background: linear-gradient(#ad770d,#fede1e);
     padding: 5px 15px;
     margin: 10px 0px 10px 0px;
@@ -59,9 +60,8 @@
     
 }
 
-.numbers, .euroNums{
-    gap: 5px;
-
+.ticket>.euroNums{
+    margin-left: 3px;
 }
 
 .ticket-form{
@@ -86,7 +86,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 18px;
     width: fit-content;
     padding: 5px 15px;
     border-radius: 15px;
@@ -98,8 +98,12 @@
 
 .controls>.helper-control {
     border-radius: 100%;
-    padding: 10px;
+    padding: 6px;
     transition: 0.5s;
+}
+
+.controls>.helper-control>svg{
+    font-size: 20px;
 }
 
 .controls>.helper-control:hover{
@@ -117,7 +121,7 @@
     justify-content: center;
     border-radius: 50px;
     background-color: white;
-    height: 62px;
+    height: fit-content;
     width: 95%;
     gap: 10px;
 }
@@ -140,7 +144,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 6.7px;
     border-radius: 100%;
     background-color: #fff;
     color: #312102;
@@ -152,8 +156,7 @@
 .num:hover {
     font-weight: bold;
     background-color: rgb(248, 224, 86);
-    border: 2px solid #ad770d;
-    padding:8px;
+
 }
 
 .clicked {
@@ -169,6 +172,10 @@ flex-direction: column;
 align-items: center;
 background-color: rgb(165, 110, 7);
 border-radius: 15px;
+overflow-y: scroll;
+scrollbar-color: gold orange;
+scrollbar-width: thin;
+scrollbar-gutter: 5px;
 }
 
 .link_wrapper>a{
@@ -215,7 +222,6 @@ border-radius: 15px;
 
     .ticket {
         border: 1px solid rgb(224, 191, 6);
-        gap: 8px;
         padding: 5px 5px;
     
     }
@@ -232,10 +238,7 @@ border-radius: 15px;
         font-size: 30px;
     }
 
-    .numbers, .euroNums{
-        gap: 2px;
-    
-    }
+   
 
     .controls>button{
         font-size: 15px;
@@ -248,15 +251,15 @@ border-radius: 15px;
 
 
     .num {
-        padding: 2px;
+        padding: 4px;
         border-radius: 100%;
-        font-size: 12px;
+        font-size: 14px;
     }
     .num:hover {
-        font-size: 12px;
+        font-size: 14px;
         background-color: rgb(248, 224, 86);
         border: 1px solid #ad770d;
-        padding:2px;
+        padding:4px;
     }
 
     .link_wrapper>a {

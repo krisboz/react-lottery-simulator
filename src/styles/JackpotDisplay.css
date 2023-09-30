@@ -5,13 +5,13 @@
     justify-content: center;
     flex-direction: column;
     gap: 5px;
-    height: 250px;
+    height: 150px;
 
 }
 
 .jackpot-announcer{
     margin: 0;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     line-height: 1;
 
@@ -20,9 +20,9 @@
 .jackpot-number2{
     border: 1px solid rgb(159, 19, 19);
     margin: 0;
-    font-size: 75px;
+    font-size: 50px;
     font-weight: bold;
-    padding: 0px 60px;
+    padding: 0px 50px;
     background: purple;
     color: white;
     width: fit-content;

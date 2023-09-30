@@ -1,13 +1,14 @@
 .selected-number {
     border: 2px solid orange;
     background-color: #fff;
-    font-size: 23px;
+    font-size: calc(23*0.67px);
+    margin: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    height: 50px;
-    width: 50px;
+    height: calc(50*0.67px);
+    width: calc(50*0.67px);
     line-height: 0;
     border-radius: 50%;
     transition:  1s;

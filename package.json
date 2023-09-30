@@ -1,7 +1,7 @@
 {
   "name": "react-lottery-simulator",
   "version": "0.1.0",
-  "homepage": "https://krisboz.github.io/react-lottery-simulator",
+  "homepage": "https://krisboz.github.io/react-lottery-simulator/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",

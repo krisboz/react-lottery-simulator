@@ -1,5 +1,7 @@
 # Lottery Simulator made with React
 
+Live preview: https://krisboz.github.io/react-lottery-simulator/
+
 It is a copy of the Eurojackpot system where the user picks
 5 numbers in the range of 1-5 and 2 euro numbers 1-12.
 
